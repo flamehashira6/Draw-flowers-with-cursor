@@ -147,7 +147,7 @@ const screenshotBtn = document.querySelector('#screenshot');
 screenshotBtn.addEventListener('click', () => {
     renderer.render(sceneBasic, camera);
     canvasEl.toBlob((blob) => {
-        saveBlob(blob, "flowers-from-ksenia.png");
+        saveBlob(blob, "flowers-for-you.png");
     });
     const saveBlob = (function () {
         const a = document.createElement('a');
